@@ -76,6 +76,48 @@ Add the following to your projects `urls.py` file, substituting `q` for whatever
     	...
     )
 
+![Result page](http://i.imgur.com/UJtRZxo.png "Result picture hosted by Imgur")
+
+
+
+
+
+---------------
+![Result page](http://i.imgur.com/UJtRZxo.png "Result picture hosted by Imgur")
+
+## 📦 What Is This?
+
+This project is a **collection of reusable Django apps** to add quiz functionality to your existing Django project.
+
+It includes:
+- `quiz`: Core quiz logic
+- `multichoice`: Multiple choice question support
+- `true_false`: True/False questions
+- `essay`: Text-based questions
+
+> ⚠️ Note: This is **not a complete Django project** (no `manage.py`, `settings.py`, etc.). You must integrate it into your own project.
+
+---
+
+## 🛠️ Requirements
+
+- [`django-model-utils`](https://pypi.org/project/django-model-utils/)
+- [`Pillow`](https://pypi.org/project/Pillow/)
+
+---
+
+## 🚀 How to Use in Your Django Project
+
+### 1. Create a Django project (if you don’t have one):
+
+```bash (or simply your terminal)
+django-admin startproject mysite
+cd mysite
+
+--------------
+
+
+
 
 Contributors
 ------------
@@ -97,3 +139,4 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
